@@ -1,5 +1,5 @@
 # ufxzche Portfolio
 
-Сайт-портфолио, созданный JARVIS.
+Сайт-портфолио, обновлён JARVIS.
 
-Откройте `index.html` или включите GitHub Pages.
+Откройте `index.html` или GitHub Pages.
