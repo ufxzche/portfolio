@@ -3,29 +3,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ufxzche — Portfolio v2</title>
+  <title>ufxzche — Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <nav class="top"><span>ufxzche</span><a href="#work">Work</a><a href="#contact">Contact</a></nav>
-  <main class="wrap">
-    <section class="intro">
-      <p class="tag">Portfolio · Redesign</p>
-      <h1>Привет, я <em>ufxzche</em></h1>
-      <p class="sub">Новый визуальный стиль: светлая эстетика, крупная типографика, акцент на проектах.</p>
-    </section>
-    <section id="work" class="work">
-      <article><h3>AI & Automation</h3><p>Голосовые ассистенты, боты, интеграции.</p></article>
-      <article><h3>Product Design</h3><p>Интерфейсы с характером и ясной структурой.</p></article>
-      <article><h3>Full Stack</h3><p>От идеи до деплоя на GitHub Pages.</p></article>
-    </section>
-    <section id="contact" class="contact">
-      <h2>Связаться</h2>
-      <a href="mailto:hello@example.com">hello@example.com</a>
-    </section>
-  </main>
-  <footer>© 2026 ufxzche · JARVIS redesign</footer>
+  <div class="glow"></div>
+  <header class="hero">
+    <p class="eyebrow">Creative Developer</p>
+    <h1>ufxzche</h1>
+    <p class="lead">Современные интерфейсы, автоматизация и AI-инструменты.</p>
+    <div class="cta">
+      <a class="btn primary" href="#projects">Проекты</a>
+      <a class="btn ghost" href="#contact">Контакты</a>
+    </div>
+  </header>
+  <section id="about" class="card">
+    <h2>Обо мне</h2>
+    <p>Строю продукты на стыке дизайна и инженерии: от голосовых ассистентов до веб-приложений.</p>
+  </section>
+  <section id="projects" class="grid">
+    <article class="card"><h3>Jarvis Assistant</h3><p>Голосовой AI с автоматизацией Windows и мессенджеров.</p></article>
+    <article class="card"><h3>Automation</h3><p>Скрипты, CI и интеграции для повседневных задач.</p></article>
+    <article class="card"><h3>Web UI</h3><p>Тёмные sci-fi интерфейсы с живой обратной связью.</p></article>
+  </section>
+  <section id="contact" class="card">
+    <h2>Контакты</h2>
+    <p>Email: hello@example.com</p>
+  </section>
+  <footer class="footer">© 2026 ufxzche · Сделано JARVIS</footer>
   <script src="main.js"></script>
 </body>
 </html>
